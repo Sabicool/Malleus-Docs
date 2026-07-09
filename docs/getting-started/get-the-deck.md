@@ -24,7 +24,7 @@ The deck is delivered and kept up to date through a collaborative deck platform.
     3. Restart Anki
     4. Click **AnkiHub → Sign into AnkiHub** and log in
 
-    <p class="screenshot-todo">📷 Screenshot to migrate: Get Add-ons dialog</p>
+    ![Get Add-Ons Dialog](../assets/getting-started/get-the-deck-addon-dialog.png)
 
     ## 3. Subscribe to the Malleus deck
 
