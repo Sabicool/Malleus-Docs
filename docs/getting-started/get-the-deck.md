@@ -11,7 +11,7 @@ The deck is delivered and kept up to date through a collaborative deck platform.
 
     AnkiHub is **free for everyone** through its scholarship program — the free and paid plans are identical.
 
-    - **Free**: apply for a [scholarship](https://www.ankihub.net/scholarships). You'll usually receive an email within a few days. Nothing after 2 weeks? Contact AnkiHub ([forum](https://community.ankihub.net/) / [email](mailto:support@ankihub.net)).
+    - **Free**: apply for a [scholarship](https://www.ankihub.net/scholarships) at [https://www.ankihub.net/scholarships](https://www.ankihub.net/scholarships) (you just need to watch the video and then scroll to the bottom). You'll usually receive an email within a few days. Nothing after 2 weeks? Contact AnkiHub ([forum](https://community.ankihub.net/) / [email](mailto:support@ankihub.net)).
     - **Paid** ($6 USD/month): [sign up here](https://app.ankihub.net/accounts/signup/) if you'd rather start right away.
 
     !!! tip
