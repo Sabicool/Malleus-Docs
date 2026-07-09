@@ -1,0 +1,55 @@
+/* Malleus brand theme — tokens mirror SHARED_CSS in Malleus-Website/build.py.
+   Keep the two in sync when changing either. */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600&display=swap');
+
+:root {
+  /* Brand tokens (from build.py :root) */
+  --malleus-ink: #1A2B3C;
+  --malleus-ink-muted: #4A6080;
+  --malleus-accent: #2E6DA4;
+  --malleus-accent-light: #D4E5F5;
+  --malleus-accent-dark: #1B4E7A;
+  --malleus-border: #C8DBE8;
+
+  /* Map onto Material's palette (primary/accent set to "custom" in mkdocs.yml) */
+  --md-primary-fg-color: var(--malleus-accent);
+  --md-primary-fg-color--light: var(--malleus-accent-light);
+  --md-primary-fg-color--dark: var(--malleus-accent-dark);
+  --md-accent-fg-color: var(--malleus-accent-dark);
+  --md-typeset-a-color: var(--malleus-accent);
+}
+
+/* Serif display headings, matching the main site (Lora for h1/h2, Outfit body) */
+.md-typeset h1,
+.md-typeset h2 {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--malleus-ink);
+}
+
+/* Header/site title slightly closer to the main site's nav-logo-text */
+.md-header__topic {
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+/* Round the content-tab and admonition corners like the main site's --radius */
+.md-typeset .tabbed-set {
+  border-radius: 10px;
+}
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+}
+
+/* Screenshot placeholders (until images are migrated) */
+.screenshot-todo {
+  border: 2px dashed var(--malleus-border);
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  color: var(--malleus-ink-muted);
+  font-size: 0.75rem;
+  background: #F4F8FB;
+}

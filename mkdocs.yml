@@ -1,0 +1,91 @@
+site_name: Malleus Docs
+site_url: https://docs.malleus.org.au/
+site_description: >-
+  Documentation for the Malleus Clinical Medicine Anki deck — getting started,
+  contributing cards, and the Malleus Anki add-on.
+
+repo_url: https://github.com/Sabicool/Malleus-Docs
+repo_name: Sabicool/Malleus-Docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  font:
+    text: Outfit
+    code: Roboto Mono
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs            # top-level sections as header tabs
+    - navigation.indexes         # section landing pages (index.md)
+    - navigation.footer          # prev/next buttons — the "just follow forward" flow
+    - navigation.top             # back-to-top button
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link          # AnkiHub/AnkiCollab tab choice sticks across pages
+    - content.action.edit        # "edit this page on GitHub" pencil
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/4WqgJzjVyH
+    - icon: fontawesome/brands/github
+      link: https://github.com/Sabicool
+    - icon: fontawesome/solid/globe
+      link: https://malleus.org.au/
+  # Link back to the main site (rendered via overrides/partials if added later;
+  # the homepage hero also links back)
+  homepage: https://malleus.org.au/
+
+markdown_extensions:
+  - admonition                # !!! tip / warning callouts (replaces Notion callouts)
+  - pymdownx.details          # ??? collapsible blocks (replaces Notion toggles)
+  - pymdownx.superfences
+  - pymdownx.tabbed:          # === "AnkiHub" / === "AnkiCollab" content tabs
+      alternate_style: true
+  - pymdownx.tasklist:        # - [ ] checklist rendering
+      custom_checkbox: true
+  - pymdownx.keys             # ++ctrl+alt+m++ keyboard keys
+  - pymdownx.caret            # ^^underline^^
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Install Anki: getting-started/install-anki.md
+      - Get the Deck: getting-started/get-the-deck.md
+      - Studying with the Deck: getting-started/studying.md
+      - Fixing Sync Issues: getting-started/sync-issues.md
+  - Contributing:
+      - contributing/index.md
+      - Submission Guidelines:
+          - contributing/guidelines/index.md
+          - What to Make Cards On: contributing/guidelines/scope.md
+          - Card Structure: contributing/guidelines/card-structure.md
+          - Style Guide: contributing/guidelines/style-guide.md
+          - Referencing: contributing/guidelines/referencing.md
+          - Tagging: contributing/guidelines/tagging.md
+          - Synced Fields (Advanced): contributing/guidelines/synced-fields.md
+      - Card Submission Checklist: contributing/checklist.md
+  - Add-on:
+      - addon/index.md
+      - Installation: addon/installation.md
+      - Usage: addon/usage.md
+      - Configuration: addon/configuration.md
+      - Troubleshooting: addon/troubleshooting.md

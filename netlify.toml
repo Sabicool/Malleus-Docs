@@ -1,0 +1,9 @@
+# Netlify build for docs.malleus.org.au
+# Create a second Netlify site pointed at this repo; then at the DNS host add:
+#   CNAME  docs  ->  <site-name>.netlify.app
+[build]
+  publish = "site"
+  command = "pip install -r requirements.txt && mkdocs build --strict"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
