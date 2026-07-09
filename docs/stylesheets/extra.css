@@ -44,6 +44,17 @@
   border-radius: 6px;
 }
 
+/* Images are unstyled by default — macOS window captures carry their own
+   drop shadow. Size each screenshot in the markdown with { width="..." }
+   (half its pixel width for 2x retina captures).
+   For flat captures with no natural shadow that bleed into the white page,
+   opt in to a frame with { .frame } */
+.md-content .md-typeset img.frame {
+  border: 1px solid var(--malleus-border);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(27, 78, 122, 0.08);
+}
+
 /* Screenshot placeholders (until images are migrated) */
 .screenshot-todo {
   border: 2px dashed var(--malleus-border);

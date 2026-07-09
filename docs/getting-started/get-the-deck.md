@@ -24,13 +24,13 @@ The deck is delivered and kept up to date through a collaborative deck platform.
     3. Restart Anki
     4. Click **AnkiHub → Sign into AnkiHub** and log in
 
-    ![Get Add-Ons Dialog](../assets/getting-started/get-the-deck-addon-dialog.png)
+    ![Get Add-Ons Dialog](../assets/getting-started/get-the-deck-addon-dialog.png){ width="435" }
 
     ## 3. Subscribe to the Malleus deck
 
     Open the [Malleus Clinical Medicine page on AnkiHub](https://app.ankihub.net/decks/5a1160ef-6f41-4d8c-948b-f72275ef0ff7) and click **Subscribe**.
 
-    ![Subscribe to Malleus Deck](../assets/getting-started/get-the-deck-subscribe.png)
+    ![Subscribe to Malleus Deck](../assets/getting-started/get-the-deck-subscribe.png){ width="330" }
 
     ## 4. Protect your personal notes
 
@@ -45,8 +45,9 @@ The deck is delivered and kept up to date through a collaborative deck platform.
     - **Missed Questions** — screenshots of practice questions you got wrong (e.g. from eMedici or AMBOSS)
     - **leech tag** — Anki automatically tags cards you keep getting wrong so you can review them separately
 
-    ![Protected Data](../assets/getting-started/get-the-deck-protected-data.png)
-    ![Protected Fields](../assets/getting-started/get-the-deck-protected-fields.png)
+    ![Protected Data](../assets/getting-started/get-the-deck-protected-data.png){ width="700" .frame }
+
+    ![Protected Fields](../assets/getting-started/get-the-deck-protected-fields.png){ width="640" .frame }
 
     ## 5. Open Anki and install
 

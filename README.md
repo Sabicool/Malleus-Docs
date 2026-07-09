@@ -30,7 +30,7 @@ CNAME  docs  ->  <netlify-site-name>.netlify.app
 
 ## Migration TODOs
 
-- **Screenshots**: pages contain dashed `📷 Screenshot to migrate` placeholders wherever the Notion originals had images — export from Notion and drop into `docs/assets/`
+- **Screenshots**: pages contain dashed `📷 Screenshot to migrate` placeholders wherever the Notion originals had images — export from Notion and drop into `docs/assets/<section>/` as `<page>-<subject>.png` (kebab-case). Size each image in the markdown at half its pixel width (retina), capped at ~700: `![Alt](path.png){ width="435" }`. macOS window captures keep their natural shadow; for flat captures that bleed into the white page, add the `.frame` class: `{ width="700" .frame }`
 - **AnkiCollab**: the Get the Deck page has a placeholder tab pending the deck's AnkiCollab publication
 - Small `<!-- TODO -->` comments mark a few Notion-hosted artefacts (spellcheck dictionary file, Chrome extension link, algorithm-builder content, image-credit HTML snippet)
 - **Addon docs** may later move to a `docs/` folder in the [Malleus-Anki-Addon repo](https://github.com/Sabicool/Malleus-Anki-Addon) and be pulled in at build time (e.g. `mkdocs-multirepo-plugin`)
