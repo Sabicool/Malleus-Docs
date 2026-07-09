@@ -30,7 +30,7 @@ The deck is delivered and kept up to date through a collaborative deck platform.
 
     Open the [Malleus Clinical Medicine page on AnkiHub](https://app.ankihub.net/decks/5a1160ef-6f41-4d8c-948b-f72275ef0ff7) and click **Subscribe**.
 
-    <p class="screenshot-todo">📷 Screenshot to migrate: Subscribe button</p>
+    ![Subscribe to Malleus Deck](../assets/getting-started/get-the-deck-subscribe.png)
 
     ## 4. Protect your personal notes
 
@@ -45,7 +45,8 @@ The deck is delivered and kept up to date through a collaborative deck platform.
     - **Missed Questions** — screenshots of practice questions you got wrong (e.g. from eMedici or AMBOSS)
     - **leech tag** — Anki automatically tags cards you keep getting wrong so you can review them separately
 
-    <p class="screenshot-todo">📷 Screenshots to migrate: Manage Protected Data, protected tags field</p>
+    ![Protected Data](../assets/getting-started/get-the-deck-protected-data.png)
+    ![Protected Fields](../assets/getting-started/get-the-deck-protected-fields.png)
 
     ## 5. Open Anki and install
 
