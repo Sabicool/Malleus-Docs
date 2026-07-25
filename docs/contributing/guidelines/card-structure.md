@@ -53,6 +53,6 @@ Before using a mnemonic as the card itself, consider a normal Q&A card with the 
 
 ## Randomised elements
 
-The [Malleus add-on](../../addon/index.md) can randomise card elements (numbers, image sequences, score calculations) so you can't pattern-match — useful for rash identification images and scoring tools (GCS, T-score cut-offs). Look for the **Add Random** button in the editor.
+The [Malleus add-on](../../addon/index.md) can randomise card elements (numbers, image sequences, score calculations) so you can't pattern-match — useful for rash identification images and scoring tools (GCS, T-score cut-offs). Look for the **Add Random** button in the editor, and see the full [Randomisation guide](../../note-type/features/randomisation.md) for the syntax and worked examples.
 
 There is some debate about randomisation's interaction with the Anki algorithm ([forum discussion](https://forums.ankiweb.net/t/how-best-to-implement-randomisation-into-anki/62643)). For specific use cases, contact [sabiqul.hoque@malleus.org.au](mailto:sabiqul.hoque@malleus.org.au).

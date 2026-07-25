@@ -32,6 +32,22 @@ This site is the home for everything you need to *use* the deck, *contribute* to
 
     [:material-arrow-right: Add-on guide](addon/index.md)
 
+-   :material-palette: **Note Type**
+
+    ---
+
+    Customise the card theme to your taste, and build randomised cards that can't be pattern-matched.
+
+    [:material-arrow-right: Note type guide](note-type/index.md)
+
+-   :material-google-chrome: **Browser Extension**
+
+    ---
+
+    One click on eMedici, eTG or the Malleus site opens the related Anki cards instantly.
+
+    [:material-arrow-right: Extension guide](extension/index.md)
+
 </div>
 
 ## Need help?

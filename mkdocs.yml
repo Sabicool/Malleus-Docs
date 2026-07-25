@@ -89,3 +89,14 @@ nav:
       - Usage: addon/usage.md
       - Configuration: addon/configuration.md
       - Troubleshooting: addon/troubleshooting.md
+  - Note Type:
+      - note-type/index.md
+      - Customising the Theme: note-type/customisation.md
+      - Features:
+          - note-type/features/index.md
+          - Keybindings & Gestures: note-type/features/keybindings.md
+          - Images: note-type/features/images.md
+          - Randomisation: note-type/features/randomisation.md
+  - Browser Extension:
+      - extension/index.md
+      - Usage: extension/usage.md

@@ -13,7 +13,7 @@ When you first install, every card is active. Start by suspending them all, then
 
 All cards should now be yellow (suspended). You only ever do this once.
 
-<p class="screenshot-todo">📷 Screenshots to migrate: Browse button, tag sidebar, Toggle Suspend</p>
+![Suspend all the cards](../assets/studying-with-the-deck/studying-with-the-deck-suspend-everything.png)
 
 ## Step 2 — Unsuspend what you're studying
 
@@ -39,11 +39,13 @@ Use the search on [the Malleus Notion site](https://malleuscm.notion.site) to fi
 
 ??? note "Doing eMedici questions? Find matching cards in one click"
 
-    Our Chrome extension finds the Malleus cards for whatever eMedici question you're on:
+    Our browser extension finds the Malleus cards for whatever eMedici question you're on:
 
-    1. Install the Malleus Chrome extension <!-- TODO: restore bookmark link from Notion -->
+    1. Install the [Malleus extension from the Chrome Web Store](https://chromewebstore.google.com/detail/malleus-qbank-search/ckihgpchidmfkbnodeeccpogbkcfgpmh)
     2. Install the [AnkiConnect add-on](https://ankiweb.net/shared/info/2055492159)
     3. With Anki running, click the extension in your toolbar — an Anki Browser window opens with all the relevant cards, ready to unsuspend or move to a filtered deck
+
+    It works on much more than eMedici — see the [extension guide](../extension/index.md).
 
 ## Step 3 — Review
 

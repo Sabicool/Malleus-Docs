@@ -26,6 +26,8 @@ CNAME  docs  ->  <netlify-site-name>.netlify.app
 - `docs/getting-started/` — install Anki, get the deck (AnkiHub/AnkiCollab tabs), studying, sync issues
 - `docs/contributing/` — contribution workflow, submission guidelines (split by topic), submission checklist
 - `docs/addon/` — Malleus Anki Helper add-on: features, installation, usage, configuration, troubleshooting
+- `docs/note-type/` — MalleusCM - Cloze note type: features, theme customisation (the `ANKIHUB_END` mechanism), randomisation guide
+- `docs/extension/` — Malleus browser extension: setup, workflows, troubleshooting
 - `docs/stylesheets/extra.css` — Malleus brand theme; tokens mirror `SHARED_CSS` in the website repo's `build.py`. Keep them in sync.
 
 ## Migration TODOs
