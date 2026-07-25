@@ -23,10 +23,13 @@ Find the cards for your current topic and unsuspend them the same way (select â†
 
 1. Click **Tools â†’ Malleus Find/Add Cards** (or the Malleus button in the Browser)
 2. Type a topic (e.g. "Parkinson disease"), select the relevant results, and click **Find cards**. *Optionally add other selectors (e.g. yield or subtag such as management)*
+3. Unsuspend the cards that you want to study
 
 ![Toolbar](../assets/studying-with-the-deck/tools-malleus-anki-addon.png)
 
 ![Malleus Anki Addon Searching Parkinson Disease](../assets/studying-with-the-deck/Malleus-anki-addon-parkinson.png)
+
+![Malleus Anki Addon results](../assets/studying-with-the-deck/parkinson-disease-results.png)
 
 See the [add-on guide](../addon/index.md) for everything else it can do.
 
