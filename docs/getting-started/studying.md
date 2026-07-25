@@ -39,11 +39,7 @@ See the [add-on guide](../addon/index.md) for everything else it can do.
 
 In the Browser sidebar, drill down e.g. **#Malleus_CM → #Subjects → Neurology_&_Ophthalmology → 11_Degenerative_Disorders → Parkinson_Disease**, or **#Malleus_CM → #Resources_by_Rotation → Obstetrics_&_Gynaecology** at the start of a rotation.
 
-![Malleus Browser Tag Tree](../assets/studying-with-the-deck/tag-tree.png)
-    
-### Search the Malleus Notion site
-
-Use the search on [the Malleus Notion site](https://malleuscm.notion.site) to find a disease page; it shows the exact tag hierarchy to look for in Anki.
+![Malleus Browser Tag Tree](../assets/studying-with-the-deck/tag-tree.png){ width="300" }
 
 ??? note "Doing eMedici questions? Find matching cards in one click"
 
