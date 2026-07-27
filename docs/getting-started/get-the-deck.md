@@ -25,7 +25,7 @@ The deck is delivered and kept up to date through a collaborative deck platform.
     4. Click **AnkiHub → Sign into AnkiHub** and log in
     
     <video controls muted loop playsinline width="700">
-      <source src="../assets/studying-with-the-deck/downloading-ankihub.mp4" type="video/mp4">
+      <source src="../assets/getting-started/downloading-ankihub.mp4" type="video/mp4">
     </video>
     
     ![Get Add-Ons Dialog](../assets/getting-started/get-the-deck-addon-dialog.png){ width="435" }
