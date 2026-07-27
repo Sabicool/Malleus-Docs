@@ -32,6 +32,10 @@ CNAME  docs  ->  <netlify-site-name>.netlify.app
 
 ## Migration TODOs
 
+- **Videos**: use MP4 (H.264), never GIF. Two gotchas:
+  - **Paths in raw HTML are not rewritten by MkDocs.** Markdown images use `../assets/…`; a `<source src>` on a page at `/section/page/` needs **one more level**: `../../assets/…`. A wrong path shows the browser's misleading "no video with supported format and MIME type found" — that message means 404, not a codec problem.
+  - **Compress before committing.** Raw screen recordings are ~15 Mbps; re-encode to ~700 KB with:
+    `ffmpeg -i in.mp4 -vf "scale=1280:-2" -c:v libx264 -preset slow -crf 30 -an -pix_fmt yuv420p -movflags +faststart out.mp4`
 - **Screenshots**: pages contain dashed `📷 Screenshot to migrate` placeholders wherever the Notion originals had images — export from Notion and drop into `docs/assets/<section>/` as `<page>-<subject>.png` (kebab-case). Size each image in the markdown at half its pixel width (retina), capped at ~700: `![Alt](path.png){ width="435" }`. macOS window captures keep their natural shadow; for flat captures that bleed into the white page, add the `.frame` class: `{ width="700" .frame }`
 - **AnkiCollab**: the Get the Deck page has a placeholder tab pending the deck's AnkiCollab publication
 - Small `<!-- TODO -->` comments mark a few Notion-hosted artefacts (spellcheck dictionary file, Chrome extension link, algorithm-builder content, image-credit HTML snippet)

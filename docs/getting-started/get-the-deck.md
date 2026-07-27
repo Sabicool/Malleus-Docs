@@ -24,11 +24,9 @@ The deck is delivered and kept up to date through a collaborative deck platform.
     3. Restart Anki
     4. Click **AnkiHub → Sign into AnkiHub** and log in
     
-    <video controls muted loop playsinline width="700">
-      <source src="../assets/getting-started/downloading-ankihub.mp4" type="video/mp4">
+    <video controls autoplay muted loop playsinline width="700">
+      <source src="../../assets/getting-started/downloading-ankihub.mp4" type="video/mp4">
     </video>
-    
-    ![Get Add-Ons Dialog](../assets/getting-started/get-the-deck-addon-dialog.png){ width="435" }
 
     ## 3. Subscribe to the Malleus deck
 

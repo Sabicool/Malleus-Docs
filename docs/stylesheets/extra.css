@@ -55,6 +55,18 @@
   box-shadow: 0 4px 20px rgba(27, 78, 122, 0.08);
 }
 
+/* Videos: keep the width="…" attribute as the cap, but never overflow narrow
+   screens. NOTE: paths in raw HTML <source src> are NOT rewritten by MkDocs —
+   they resolve against the page URL, so a page at /section/page/ needs
+   ../../assets/…  (one more level than the ../assets/… used by markdown images). */
+.md-content .md-typeset video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border-radius: 10px;
+}
+
 /* Screenshot placeholders (until images are migrated) */
 .screenshot-todo {
   border: 2px dashed var(--malleus-border);
