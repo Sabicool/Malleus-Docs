@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+#
+# Blocks unoptimised media from entering git history.
+#
+# Once a large file is committed and pushed it lives in the repo forever —
+# deleting it later needs a history rewrite. Cheaper to catch it here.
+#
+# Videos are judged on BITRATE, not raw size, so a properly compressed
+# narrated walkthrough passes even if it runs for minutes, while a short
+# raw screen recording (~15 Mbps) is caught.
+#
+# Enable once per clone:   git config core.hooksPath .githooks
+# Bypass in an emergency:  git commit --no-verify
+#
+set -euo pipefail
+
+MAX_BITRATE=1500000   # 1.5 Mbps — optimised screen capture sits near 0.3-0.6
+MAX_VIDEO_MB=25       # absolute ceiling; past this, host on YouTube instead
+MAX_IMAGE_KB=1024
+FALLBACK_VIDEO_MB=5   # used only when ffprobe is unavailable
+
+have_ffprobe=0
+command -v ffprobe >/dev/null 2>&1 && have_ffprobe=1
+
+size_bytes() { stat -f%z "$1" 2>/dev/null || stat -c%s "$1"; }
+
+fail=0
+problem() { [ "$fail" -eq 0 ] && echo ""; echo "  ✗ $1"; fail=1; }
+
+while IFS= read -r file; do
+  [ -f "$file" ] || continue
+  bytes=$(size_bytes "$file")
+  mb=$(( bytes / 1048576 ))
+  kb=$(( (bytes + 1023) / 1024 ))
+
+  case "${file##*.}" in
+    gif|GIF)
+      problem "$file — use MP4 instead of GIF (10-30x smaller)"
+      ;;
+
+    mp4|mov|webm|MP4|MOV|WEBM)
+      if [ "$mb" -ge "$MAX_VIDEO_MB" ]; then
+        problem "$file (${mb} MB) — over the ${MAX_VIDEO_MB} MB ceiling; host long videos on YouTube"
+      elif [ "$have_ffprobe" -eq 1 ]; then
+        br=$(ffprobe -v error -show_entries format=bit_rate -of csv=p=0 "$file" 2>/dev/null || true)
+        case "$br" in ''|*[!0-9]*) br=0 ;; esac
+        if [ "$br" -gt "$MAX_BITRATE" ]; then
+          problem "$file ($((br/1000)) kbps, ${mb} MB) — not compressed"
+        fi
+      elif [ "$mb" -ge "$FALLBACK_VIDEO_MB" ]; then
+        problem "$file (${mb} MB) — install ffmpeg for a bitrate-aware check"
+      fi
+      ;;
+
+    png|jpg|jpeg|PNG|JPG|JPEG)
+      if [ "$kb" -gt "$MAX_IMAGE_KB" ]; then
+        problem "$file (${kb} KB, limit ${MAX_IMAGE_KB} KB)"
+      fi
+      ;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=ACM)
+
+if [ "$fail" -eq 1 ]; then
+  cat <<'EOF'
+
+Commit blocked: unoptimised media.
+
+  Videos:  ./scripts/optimise-video.sh <file>     (keeps audio if present)
+  Images:  sips -Z 1400 <file>                    (or export smaller)
+
+Then `git add` the file again and re-commit.
+Genuinely need it as-is? git commit --no-verify
+
+EOF
+  exit 1
+fi
