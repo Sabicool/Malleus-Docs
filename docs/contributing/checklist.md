@@ -6,7 +6,7 @@
 ## Setup
 
 - [ ] Deck is set to **Malleus Clinical Medicine**
-- [ ] Note type is **MalleusCM - Cloze** — other note types can't be submitted
+- [ ] Note type is the Malleus one, starting with **MalleusCM - Cloze** — other note types can't be submitted (switched from AnkiHub? use AnkiCollab's, not the old *… / Stapedius* one)
 
 ??? note "What this looks like in Anki"
     <p class="screenshot-todo">📷 Screenshot to migrate: deck and note type in the Add dialog</p>
@@ -51,8 +51,9 @@
 
 ## Submit 🥳
 
-- [ ] Click **👑 Suggest a new note** — or select several cards, right-click → **AnkiHub: Bulk suggest notes**
-- [ ] Add a brief **rationale** for why the card should be accepted
+- [ ] Signed in to AnkiCollab (**AnkiCollab → Login**)
+- [ ] Tick **Suggest on AnkiCollab** before clicking **Add** — or select several cards in the Browser, right-click → **AnkiCollab: Bulk suggest notes**
+- [ ] For a bulk suggestion: pick the type of change and add a brief **rationale** for why the cards should be accepted
 
 !!! success "That's it!"
-    The maintainer team will review your submission and email you the outcome. Minor change requests appear as comments on [AnkiHub Community](https://community.ankihub.net/) — no email is sent for those, so check back.
+    The maintainer team reviews every suggestion on AnkiCollab. Click **AC: ↗ Open** on a card to see where its suggestion is up to, and any comments on it.

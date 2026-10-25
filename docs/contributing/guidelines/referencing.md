@@ -55,7 +55,7 @@ Every image needs a credit — *italicised, font size 10pt*, in this format:
 
 **Therapeutic Guidelines and RCH images:** both have given us permission to reproduce content. TG screenshots go in the **eTG Complete field** (nothing else goes there; other images go in Additional Resources), must be limited to the minimum content needed to answer the question safely, and need a citation somewhere on the card.
 
-**Technical note:** AnkiHub converts images to WebP (max 16,383 px per side) — split larger images into equal-width screenshots.
+**Technical note:** AnkiCollab converts images to WebP when you suggest a card, and WebP images can be at most 16,383 px per side — split larger images into equal-width screenshots.
 
 ??? note "Free-to-use image sources"
     [CDC PHIL](https://phil.cdc.gov/) · [Gray's Anatomy](https://www.bartleby.com/lit-hub/anatomy-of-the-human-body/) · [OpenStax](https://openstax.org) · [Radiopaedia](https://radiopaedia.org/) · [Retina Gallery](https://www.retinagallery.com/index.php) · [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) · [Smart Servier](https://smart.servier.com/) · [StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK430685/) · [DermNet](https://dermnetnz.org/)

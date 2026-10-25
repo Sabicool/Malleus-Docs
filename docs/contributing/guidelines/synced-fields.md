@@ -7,5 +7,5 @@ Synced fields (introduced December 2025) share content across multiple cards —
 - Fill the **Subject relation** (which disease/topic pages it belongs to) and the **Subtag** dropdown (which subtags it appears under; use 'Main Tag' for general pages)
 - The [Malleus add-on](../../addon/index.md) then offers the synced content automatically when users create or re-tag cards. Use Synced Extra sparingly — every use adds a prompt for users
 
-!!! warning "Downloaded the deck before December 2025?"
-    Your fields may look different. Delete the synced fields (via the 'Fields' button) and re-sync with AnkiHub after a full database reupload.
+!!! warning "Got the deck through AnkiHub before December 2025?"
+    Your fields may look different. [Switching to AnkiCollab](../../getting-started/switch-from-ankihub.md) moves your cards onto the current note type, synced fields included.
