@@ -26,12 +26,13 @@ On touch devices, one-by-one cards also respond to **horizontal swipes** — swi
 
 ## Customising the behaviour
 
-The keys, gestures and related behaviour all live in a `userSettings` block at the top of the card templates (front and back). Like the [styling](../customisation.md), **AnkiHub resets the templates on sync** — so the same rule applies:
+The keys, gestures and related behaviour all live in a `userSettings` block at the top of the card templates (front and back). Like the [styling](../customisation.md), **deck updates from AnkiCollab replace the templates** — so the same rules apply:
 
 1. In Anki: **Browse → select a Malleus card → Cards…**
 2. In the **Front Template** (or Back Template) pane, copy the block between the `USER CONFIG` markers
 3. Paste it at the very bottom of the template, **below the `ANKIHUB_END` comment**
-4. Edit your pasted copy — it overrides the defaults and survives syncs
+4. Edit your pasted copy — it overrides the defaults
+5. Keep a copy of it outside Anki, and paste it back if a deck update replaces the template
 
 The settings you're most likely to want:
 

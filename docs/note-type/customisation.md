@@ -1,11 +1,11 @@
 # Customising the Theme
 
-You can change the note type's colours — cloze colour, backgrounds, buttons, night mode palette and more — to suit your taste. There's one crucial rule to get right first.
+You can change the note type's colours — cloze colour, backgrounds, buttons, night mode palette and more — to suit your taste. Two rules to know first.
 
-!!! danger "Put your changes in the right place, or they'll be deleted"
-    AnkiHub **resets the styling section on every sync** to keep the note type up to date. Any edits made directly to the default styling are lost.
+!!! danger "Keep a copy of your changes: deck updates replace them"
+    When AnkiCollab updates the deck, it **replaces the note type's styling and templates** with the deck's own, including anything you've added. Keep your customisations in a text file (or a note to yourself) and paste them back in after an update.
 
-    The styling ends with this comment:
+    The styling ends with this comment, left over from AnkiHub:
 
     ```css
     /*
@@ -15,7 +15,7 @@ You can change the note type's colours — cloze colour, backgrounds, buttons, n
     */
     ```
 
-    **Everything below `ANKIHUB_END` is protected.** Your customisations go there — because they come later in the stylesheet, they override the defaults above, and AnkiHub leaves them alone.
+    **Put your customisations below it.** Because they come later in the stylesheet, they override the defaults above. AnkiCollab doesn't protect this section the way AnkiHub did, so it's only the right place to paste, not a safe place to keep them.
 
 ## How to customise
 
@@ -23,7 +23,8 @@ You can change the note type's colours — cloze colour, backgrounds, buttons, n
 2. Open the **Styling** pane
 3. Find the block between `USER CONFIG - copy from this line` and `USER CONFIG - until this line` near the top, and **copy** it
 4. Scroll to the very bottom, **below the `ANKIHUB_END` comment**, and paste it there
-5. Edit the pasted copy to your liking — your version now wins over the defaults and survives every sync
+5. Edit the pasted copy to your liking — your version now wins over the defaults
+6. Save a copy of what you pasted somewhere outside Anki, so you can paste it back if a deck update replaces it
 
 The USER CONFIG block covers the things people most want to change:
 
@@ -42,7 +43,7 @@ Night mode variants are the same selectors prefixed with `.night_mode` / `.night
 
 ## Beyond colours: behaviour settings
 
-The card **templates** (Front and Back) contain a `userSettings` block that controls behaviour — keybindings, swipe gestures, auto-flip, the cloze placeholder, image enlarging and more. It's protected by the exact same mechanism: copy the `USER CONFIG` block, paste it below the template's `ANKIHUB_END` comment, and edit the copy. See [Keybindings & Gestures](features/keybindings.md#customising-the-behaviour) for the full settings table.
+The card **templates** (Front and Back) contain a `userSettings` block that controls behaviour — keybindings, swipe gestures, auto-flip, the cloze placeholder, image enlarging and more. It works the same way: copy the `USER CONFIG` block, paste it below the template's `ANKIHUB_END` comment, edit the copy, and keep a copy outside Anki, because deck updates replace the templates too. See [Keybindings & Gestures](features/keybindings.md#customising-the-behaviour) for the full settings table.
 
 ## Ready-made themes
 

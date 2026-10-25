@@ -1,21 +1,35 @@
 # Configuration
 
-All settings are edited via **Tools → Add-ons → Malleus Clinical Medicine → Config**.
+All settings are edited via **Tools → Add-ons**: select the Malleus add-on, then click **Config**.
 
-The most common ones to change are [`deck_name`](#deck_name), [`shortcut`](#shortcut) and [`cache_expiry`](#cache_expiry).
+The most common ones to change are [`shortcut`](#shortcut) and [`cache_expiry`](#cache_expiry). You don't normally need to touch [`deck_name`](#deck_name) or [`note_type`](#note_type): left at their defaults, new cards go into your Malleus deck with the Malleus note type, ready to suggest on AnkiCollab.
 
 ## `deck_name`
 
 **Default:** `"Default"`
 
-The name of the deck where new cards are created. Use `::` to specify a subdeck.
+The deck where new cards are created. Left at `"Default"`, new cards go into **your Malleus deck**: the one AnkiCollab keeps (AnkiCollab can only suggest cards inside it), or otherwise the deck holding the most Malleus cards.
+
+Set a deck name to choose a different deck. Use `::` to specify a subdeck. If no deck has exactly that name, the add-on uses the one deck whose last part matches it, and otherwise the deck you're currently in.
 
 ```json
 "deck_name": "Pre-Made Decks::Malleus Medicine"
 ```
 
-!!! tip
-    If you have renamed or moved the Malleus deck, set this so the create card button opens to the right deck.
+!!! tip "Contributing cards?"
+    Only cards inside the Malleus deck (or one of its subdecks) can be suggested on AnkiCollab, so if you set this, keep it inside the Malleus deck.
+
+## `note_type`
+
+**Default:** `"MalleusCM - Cloze (Malleus Clinical Medicine [AU/NZ] / Stapedius)"`
+
+The note type used for new cards. Left at this default, new cards use **whichever Malleus note type holds your Malleus notes** (names starting with `MalleusCM - Cloze`). After switching from AnkiHub, that's the one AnkiCollab installed rather than the old AnkiHub one this default names.
+
+Set a note type name to choose a different one. If the name you set isn't in your collection, the add-on uses the only note type whose name starts with `MalleusCM - Cloze`; if you have more than one, it asks you to pick.
+
+```json
+"note_type": "MalleusCM - Cloze (AnkiCollab)"
+```
 
 ## `shortcut`
 
@@ -106,3 +120,29 @@ When `true`, new search results have their subtag chip pre-set to the subtag you
 ```json
 "remember_subtag_selection": false
 ```
+
+## `find_yields`
+
+**Default:** `["High", "Medium", "Untagged"]`
+
+Which yield levels **Find Cards** returns. Allowed values: `"High"`, `"Medium"`, `"Low"`, `"Beyond_medical_student_level"` and `"Untagged"` (notes with no yield tag).
+
+You don't normally edit this by hand: the Yield buttons in the Page Selector's **🔍 Find cards** tab update it (tick as many as you like; "No yield" is the `"Untagged"` value), so your choice is remembered between sessions.
+
+This is separate from the yield in the **🏷 Create & tag** tab, which sets the single yield used when tagging or creating cards. When [`show_card_counts`](#show_card_counts) is on, the per-result note counts also follow this filter.
+
+```json
+"find_yields": ["High", "Medium", "Untagged"]
+```
+
+## `exclude_region_features`
+
+**Default:** `[]`
+
+Region-specific cards that **Find Cards** leaves out. Allowed values: `"NZ"` (cards tagged `#Malleus_CM::#Card_Feature::NZ_Only`) and `"AUS"` (cards tagged `#Malleus_CM::#Card_Feature::AUS_Only`). For example, a New Zealand student would use:
+
+```json
+"exclude_region_features": ["AUS"]
+```
+
+The NZ / AUS buttons in the **🔍 Find cards** tab update this automatically: setting one to **Not NZ** / **Not AUS** saves it, and turning it off removes it. This only affects searching and never changes card tags. **NZ only** / **AUS only** (in either tab) is never saved and starts off each time the Page Selector opens; in the **🏷 Create & tag** tab it adds the tag to cards.

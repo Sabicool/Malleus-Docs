@@ -17,7 +17,7 @@ The note type lives in its own repository: [Sabicool/Malleus-Note-Type](https://
 
 ## In this section
 
-- **[Customising the theme](customisation.md)** — change the colours (and keep your changes through AnkiHub syncs)
+- **[Customising the theme](customisation.md)** — change the colours, and how to keep your changes through deck updates
 - **[Features](features/index.md)** — the full tour: one-by-one, [keybindings & gestures](features/keybindings.md), [images](features/images.md), [randomisation](features/randomisation.md)
 
 !!! warning "Don't create cards with other note types"
