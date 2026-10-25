@@ -15,8 +15,6 @@ The [Malleus add-on](../../addon/index.md) inserts randomised elements for you. 
 - **Show Score** — displays the running total of all scored elements
 - **Answer by Score** — text chosen by the total score
 
-<p class="screenshot-todo">📷 Screenshot to migrate: Add Randomization Elements dialog</p>
-
 ## Syntax reference
 
 You can also type the tokens directly into any field:

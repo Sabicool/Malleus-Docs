@@ -8,9 +8,6 @@
 - [ ] Deck is set to **Malleus Clinical Medicine**
 - [ ] Note type is the Malleus one, starting with **MalleusCM - Cloze** — other note types can't be submitted (switched from AnkiHub? use AnkiCollab's, not the old *… / Stapedius* one)
 
-??? note "What this looks like in Anki"
-    <p class="screenshot-todo">📷 Screenshot to migrate: deck and note type in the Add dialog</p>
-
 ## Content
 
 - [ ] The card is **clinically relevant** — not preclinical minutiae ([guidelines](guidelines/scope.md#keep-it-clinical))

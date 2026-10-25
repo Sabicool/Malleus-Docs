@@ -9,8 +9,6 @@ Occasionally deck updates go wrong: cards not updating, duplicate cards, or miss
 5. **Check the database** — **Tools → Check Database**, then **Check Media**, then **Empty Cards**
 6. **Remove deleted notes** — when the maintainers remove notes from the deck, the next update shows **Notes Removed**. Click **Delete Notes** to remove them, or **Review in Browser** to look first and delete them from there.
 
-<p class="screenshot-todo">📷 Screenshots to migrate: one per step</p>
-
 !!! tip "Out of sync with your phone after switching from AnkiHub?"
     The first sync on each other device after switching asks whether to upload or download. Choose **Download**. See [Switching from AnkiHub](switch-from-ankihub.md#3-update-your-other-devices).
 

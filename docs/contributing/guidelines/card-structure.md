@@ -37,8 +37,6 @@ If you use inline cloze, make sure there's enough **context** to work out the mi
 - Use the **same cloze number** for multiple answers to the same question — don't spread one question's answers over c1, c2, c3.
 - For increase/decrease answers, give the hint in fixed order: `{{c1::increases::increases/decreases}}` — unless the answer is obvious.
 
-<p class="screenshot-todo">📷 Screenshots to migrate: multiple-answer examples</p>
-
 ## One-by-one cards and mnemonics
 
 One-by-one cards (clozes revealed in sequence) are only appropriate when the items have a **meaningful order** — a mnemonic or a sequence of treatment:
@@ -48,8 +46,6 @@ One-by-one cards (clozes revealed in sequence) are only appropriate when the ite
 - To make a card one-by-one, type any text into the 'One-by-one' field
 
 Before using a mnemonic as the card itself, consider a normal Q&A card with the mnemonic as a memory hook in the Extra field.
-
-<p class="screenshot-todo">📷 Screenshots to migrate: mnemonic formatting examples</p>
 
 ## Randomised elements
 

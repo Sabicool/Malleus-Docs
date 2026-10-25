@@ -47,15 +47,11 @@ Exception — doses **are** helpful for drugs interns chart constantly: common a
 
 For complex regimens, one line per component — a three-drug regimen gets three lines; a numbered list can clarify the number of agents.
 
-<p class="screenshot-todo">📷 Screenshot to migrate: complex regimen example</p>
-
 ## Bold, underline and italics
 
 - **Bold** the topic/disease and key words — including 'augmenting' words that distinguish near-identical cards (e.g. **vertical** vs **horizontal**)
 - <u>Underline</u> sparingly: the specific thing the question asks for, and augmenting words that are already bolded
 - *Italics* only for genus and species (*Staphylococcus aureus*) — never for emphasis
-
-<p class="screenshot-todo">📷 Screenshots to migrate: good/bad formatting examples</p>
 
 **Organisms and viruses:** italicise organism names with the genus capitalised (*Mycobacterium tuberculosis*; abbreviate as *M. tuberculosis*); 'spp.' is not italicised (*Vibrio* spp.). Viruses are lowercase and not italicised except as acronyms — herpes simplex virus (HSV).
 
@@ -74,8 +70,6 @@ For complex regimens, one line per component — a three-drug regimen gets three
 
 - Capitalise the first letter of each sentence
 - Two or more sentences/points → format as a bullet list
-
-<p class="screenshot-todo">📷 Screenshots to migrate: correct/incorrect Extra field examples</p>
 
 ## Tables
 

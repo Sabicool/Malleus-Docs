@@ -17,8 +17,6 @@ The Malleus add-on integrates Anki with the Malleus Notion databases so you can 
 - **Randomised card elements** — insert random numbers, image sequences and score calculations so cards can't be pattern-matched (see the [Randomisation guide](../note-type/features/randomisation.md))
 - **Synced fields support** — offers shared [Synced Extra](../contributing/guidelines/synced-fields.md) content automatically when creating or re-tagging cards
 
-<p class="screenshot-todo">📷 Screenshot to migrate: page selector with unified search results and filter chips</p>
-
 ## Where to next
 
 - [Installation](installation.md) — AnkiWeb code or manual install

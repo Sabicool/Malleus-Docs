@@ -17,8 +17,6 @@ Three ways in:
 5. For pages that support subtags, pick the subtag from the chip that appears on each checked row (leave as **Main Tag** to tag the whole topic)
 6. Click **Find Cards** to search for existing cards with matching tags
 
-<p class="screenshot-todo">📷 Screenshot to migrate: search results with filter chips and subtag chips</p>
-
 ## Creating new cards
 
 1. Follow steps 1–5 above

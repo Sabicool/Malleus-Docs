@@ -5,8 +5,6 @@ The Malleus extension for Chromium browsers (Chrome, Edge, Brave, Arc…) finds 
 [:material-google-chrome: Install from the Chrome Web Store](https://chromewebstore.google.com/detail/malleus-qbank-search/ckihgpchidmfkbnodeeccpogbkcfgpmh){ .md-button .md-button--primary }
 [:material-github: Source on GitHub](https://github.com/Sabicool/Malleus-Extension){ .md-button }
 
-<p class="screenshot-todo">📷 To migrate: showcase GIF from the extension repo (resources/showcase.gif)</p>
-
 ## Setup
 
 The extension talks to Anki through AnkiConnect, so there are two pieces:

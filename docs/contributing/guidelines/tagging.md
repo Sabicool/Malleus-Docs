@@ -7,17 +7,11 @@
 
 **1) Malleus Anki Helper add-on (recommended)** — install [the add-on](../../addon/installation.md) and it applies the right tags as you create cards. If a page is missing from its search (especially eTG), contact us and we'll add it.
 
-<p class="screenshot-todo">📷 Video embeds to migrate: add-on tagging walkthrough</p>
-
 ??? note "2) Search the Malleus Notion site"
     Search [the Malleus Notion site](https://malleuscm.notion.site) for the disease (e.g. Acute Otitis Media), open its page, hover over the subtag that matches your card (e.g. aetiology) and click the copy icon. It copies all related tags (rotation, question banks…) in one go. Only copy from pages with an icon (stethoscope = disease, info = topic); pages without icons are parent pages.
 
-    <p class="screenshot-todo">📷 Screenshots and video to migrate</p>
-
 ??? note "3) Database lookup"
     Open the [tag databases](https://www.notion.so/1caec2ba44be41d5a4ed8a4d998c42df), unfold topics to find the disease, open it, and copy the matching subtag the same way.
-
-    <p class="screenshot-todo">📷 Screenshots to migrate</p>
 
 ## Special tags
 
