@@ -7,6 +7,7 @@ The Malleus add-on integrates Anki with the Malleus Notion databases so you can 
 
 ## Features
 
+- **Deck setup** — installs AnkiCollab and downloads the Malleus deck for you, or moves your deck across from AnkiHub with all its progress (**Tools → Malleus Deck Setup (AnkiCollab)…**; see [Get the Deck](../getting-started/get-the-deck.md))
 - **Unified search** — a single search surfaces the best matches from every database: Subjects, Pharmacology, eTG, Rotation, Textbooks and Guidelines
 - **Filter chips** — narrow results to specific databases with per-database toggles
 - **Automatic tagging** — tags (including subtags and yield levels) are applied automatically when you create cards

@@ -1,81 +1,61 @@
 # Get the Deck
 
-The deck is delivered and kept up to date through a collaborative deck platform. Pick a platform below — the steps for each are self-contained.
+Malleus is shared through **[AnkiCollab](https://www.ankicollab.com/)**, a free add-on that downloads the deck and keeps it up to date. You don't need to set AnkiCollab up yourself: the **Malleus add-on** does it for you, one step at a time.
 
-!!! note "Which platform?"
-    **AnkiHub** is the established way to get Malleus today. **AnkiCollab** support is planned — once it's live, this page will carry full instructions for both and you can use either.
+!!! note "Already getting Malleus through AnkiHub?"
+    Follow **[Switching from AnkiHub](switch-from-ankihub.md)** instead. It moves your existing deck across and keeps all your progress.
 
-=== "AnkiHub"
+## 1. Install the Malleus add-on
 
-    ## 1. Create an AnkiHub account
+1. In Anki, click **Tools → Add-ons → Get Add-ons…**
+2. Paste the code **620451841** and click **OK**
+3. Restart Anki
 
-    AnkiHub is **free for everyone** through its scholarship program — the free and paid plans are identical.
+<p class="screenshot-todo">🎬 Clip to record: installing the Malleus add-on</p>
 
-    - **Free**: apply for a [scholarship](https://www.ankihub.net/scholarships) at [https://www.ankihub.net/scholarships](https://www.ankihub.net/scholarships) (you just need to watch the video and then scroll to the bottom). You'll usually receive an email within a few days. Nothing after 2 weeks? Contact AnkiHub ([forum](https://community.ankihub.net/) / [email](mailto:support@ankihub.net)).
-    - **Paid** ($6 USD/month): [sign up here](https://app.ankihub.net/accounts/signup/) if you'd rather start right away.
+## 2. Let it set everything up
 
-    !!! tip
-        Save your login details — you'll need them in the next step.
+When Anki opens again you'll see **Get the Malleus deck**. Click **Set it up** and follow the steps. It takes about 10–30 minutes, mostly waiting for the download, so use a reliable internet connection.
 
-    ## 2. Install the AnkiHub add-on
+!!! tip "Closed the message by accident?"
+    Open it again any time from **Tools → Malleus Deck Setup (AnkiCollab)…**
 
-    1. In Anki, click **Tools → Add-ons → Get Add-ons…**
-    2. Paste the code **1322529746** and click OK
-    3. Restart Anki
-    4. Click **AnkiHub → Sign into AnkiHub** and log in
-    
-    <video controls autoplay muted loop playsinline width="700">
-      <source src="../../assets/getting-started/downloading-ankihub.mp4" type="video/mp4">
-    </video>
+Here's what the steps do:
 
-    ## 3. Subscribe to the Malleus deck
+1. **Install AnkiCollab.** The add-on downloads it for you. Anki then needs to restart once: click **Close Anki**, open Anki again, and the setup comes back by itself.
+2. **Sign in to AnkiCollab.** AnkiCollab needs a free account to download the deck.
+    - New to AnkiCollab? Click **Create a free account**, sign up on the website, then come back to Anki.
+    - Click **Sign in**. Anki shows a short code: click **Approve in your browser** and Anki signs in by itself. There's no password to type into Anki.
+3. **Download Malleus.** AnkiCollab downloads the cards, then the images. Keep Anki open until it's done.
 
-    Open the [Malleus Clinical Medicine page on AnkiHub](https://app.ankihub.net/decks/5a1160ef-6f41-4d8c-948b-f72275ef0ff7) and click **Subscribe**.
+<p class="screenshot-todo">🎬 Clip to record: Set it up → install AnkiCollab → restart</p>
 
-    ![Subscribe to Malleus Deck](../assets/getting-started/get-the-deck-subscribe.png){ width="330" }
+<p class="screenshot-todo">🎬 Clip to record: sign in and download</p>
 
-    ## 4. Protect your personal notes
+!!! question "Share your review statistics?"
+    Once the deck is in, AnkiCollab asks whether to share your review statistics. **Please say yes.** They're anonymous, and they show the Malleus team which cards people struggle with, so we know what to fix first.
 
-    On the same AnkiHub deck page, click **… → Manage Protected Data**, then:
+## 3. You're all set
 
-    - tick **Personal Notes** and **Missed Questions**
-    - type **leech** (without quotes) into the protected tags field
+Your **Personal Notes** and **Missed Questions** fields and the **leech** tag are protected, so deck updates never overwrite them. Use them freely for your own notes, links to lectures, screenshots of questions you got wrong (e.g. from eMedici or AMBOSS), and cards Anki flags as leeches.
 
-    This stops deck updates from overwriting things that are yours:
+- **Updates** arrive whenever you open Anki. You can also check any time with **AnkiCollab → Update Decks**.
+- **Your phone** gets the deck and its updates through your normal AnkiWeb sync, so sync your computer first and then your phone. AnkiCollab itself only runs on the computer.
 
-    - **Personal Notes** — your own notes, links to uni lectures, local guidelines
-    - **Missed Questions** — screenshots of practice questions you got wrong (e.g. from eMedici or AMBOSS)
-    - **leech tag** — Anki automatically tags cards you keep getting wrong so you can review them separately
+!!! success "Welcome aboard! 🎉"
+    You've just unlocked the ultimate Anki deck for Aussie and Kiwi med students. Dive in and have fun! 📚🩺
 
-    ![Protected Data](../assets/getting-started/get-the-deck-protected-data.png){ width="700" .frame }
-
-    ![Protected Fields](../assets/getting-started/get-the-deck-protected-fields.png){ width="640" .frame }
-
-    ## 5. Open Anki and install
-
-    Restart or sync Anki. When you see **"You have new AnkiHub decks to install"**, keep the recommended settings and click **Install**.
-
-    !!! success "Welcome aboard! 🎉"
-        You've just unlocked the ultimate Anki deck for Aussie and Kiwi med students. Dive in and have fun! 📚🩺
-
-=== "AnkiCollab"
-
-    !!! info "Coming soon"
-        AnkiCollab support for the Malleus deck is planned but not yet live. Once the deck is published on [AnkiCollab](https://www.ankicollab.com/), this tab will walk you through:
-
-        1. Installing the AnkiCollab add-on
-        2. Subscribing with the Malleus subscription key
-        3. Protecting your personal notes and tags
-
-        In the meantime, use the **AnkiHub** tab — everything else in these docs applies regardless of platform.
+??? info "Setting it up yourself, without the Malleus add-on"
+    1. Install AnkiCollab: **Tools → Add-ons → Get Add-ons…**, code **1957538407**, then restart Anki
+    2. Sign in: **AnkiCollab → Login**
+    3. Subscribe: **AnkiCollab → Manage Subscriptions**, paste the key **malleus-au-nz** and click **Add**
 
 ## Recommended extra add-ons (optional)
 
 ??? note "Add-ons that make Malleus better — click to expand"
 
-    - [Malleus Anki Helper](https://ankiweb.net/shared/info/620451841) — code **620451841**. Find cards by topic and create correctly tagged cards from inside Anki. Strongly recommended; it's used throughout this guide. [Full guide here](../addon/index.md).
     - [Mini Format Pack](https://ankiweb.net/shared/info/295889520) — code **295889520**. Extended text editor; needed for some formatting in the [Submission Guidelines](../contributing/guidelines/index.md).
     - [Wrapper meta-addon](https://ankiweb.net/shared/info/396502676) — code **396502676**. Makes citing images easy (see [Images and copyright](../contributing/guidelines/referencing.md#images-and-copyright)).
     - [Spellchecker](https://ankiweb.net/shared/info/143753963) — code **143753963**. Australian medical spellcheck; [setup instructions](../contributing/guidelines/style-guide.md#spelling).
 
-    Restart Anki after installing add-ons.
+    The [Malleus add-on](../addon/index.md) you installed in step 1 also finds cards by topic and creates correctly tagged cards from inside Anki.

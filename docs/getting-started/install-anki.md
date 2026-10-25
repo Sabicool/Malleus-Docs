@@ -6,4 +6,4 @@ You can also review on your phone with [AnkiMobile (iOS)](https://apps.apple.com
 
 ![Anki desktop download page](../assets/getting-started/install-anki-desktop.png){ width="700" }
 
-Once Anki is installed, the next step is subscribing to the deck.
+Once Anki is installed, the next step is getting the deck.
