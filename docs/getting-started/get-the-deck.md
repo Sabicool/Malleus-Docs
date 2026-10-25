@@ -11,7 +11,9 @@ Malleus is shared through **[AnkiCollab](https://www.ankicollab.com/)**, a free 
 2. Paste the code **620451841** and click **OK**
 3. Restart Anki
 
-<p class="screenshot-todo">🎬 Clip to record: installing the Malleus add-on</p>
+<video controls autoplay muted loop playsinline width="700">
+  <source src="../../assets/getting-started/downloading-malleus-addon.mp4" type="video/mp4">
+</video>
 
 ## 2. Let it set everything up
 
@@ -28,9 +30,13 @@ Here's what the steps do:
     - Click **Sign in**. Anki shows a short code: click **Approve in your browser** and Anki signs in by itself. There's no password to type into Anki.
 3. **Download Malleus.** AnkiCollab downloads the cards, then the images. Keep Anki open until it's done.
 
-<p class="screenshot-todo">🎬 Clip to record: Set it up → install AnkiCollab → restart</p>
+<video controls autoplay muted loop playsinline width="700">
+  <source src="../../assets/getting-started/downloading-ankicollab-via-addon.mp4" type="video/mp4">
+</video>
 
-<p class="screenshot-todo">🎬 Clip to record: sign in and download</p>
+<video controls autoplay muted loop playsinline width="700">
+  <source src="../../assets/getting-started/downloading-malleus-through-ankicollab.mp4" type="video/mp4">
+</video>
 
 !!! question "Share your review statistics?"
     Once the deck is in, AnkiCollab asks whether to share your review statistics. **Please say yes.** They're anonymous, and they show the Malleus team which cards people struggle with, so we know what to fix first.

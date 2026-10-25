@@ -17,7 +17,9 @@ When Anki opens you'll see **Malleus has moved to AnkiCollab**. Click **Move my 
 !!! tip "Closed the message by accident?"
     Open it again any time from **Tools → Malleus Deck Setup (AnkiCollab)…**
 
-<p class="screenshot-todo">🎬 Clip to record: moving a deck from AnkiHub</p>
+<video controls autoplay muted loop playsinline width="700">
+  <source src="../../assets/getting-started/switching-from-ankihub-to-ankicollab.mp4" type="video/mp4">
+</video>
 
 Here's what the steps do:
 
