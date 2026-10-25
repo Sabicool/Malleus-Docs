@@ -9,9 +9,11 @@ When you first install, every card is active. Start by suspending them all, then
 1. Click **Browse** (shortcut: ++b++)
 2. In the sidebar, find **Tags → #Malleus_CM**
 3. Click any card in the main window, then select all (++ctrl+a++ / ++cmd+a++)
-4. Right-click → **Toggle Suspend** (++ctrl+j++ / ++cmd+j++)
+4. Right-click (or the **Cards** menu) → **Toggle Suspend** (++ctrl+j++ / ++cmd+j++)
 
-    ![Suspend all the cards](../assets/studying-with-the-deck/studying-with-the-deck-suspend-everything.png){ width="700" }
+<video controls autoplay muted loop playsinline width="700">
+  <source src="../../assets/studying-with-the-deck/suspending-all-cards.mp4" type="video/mp4">
+</video>
 
 All cards should now be yellow (suspended). You only ever do this once.
 
@@ -22,16 +24,12 @@ Find the cards for your current topic and unsuspend them the same way (select �
 ### Easiest — the Malleus Helper add-on
 
 1. Click **Tools → Malleus Find/Add Cards** (or the Malleus button in the Browser)
-
-    ![Toolbar](../assets/studying-with-the-deck/tools-malleus-anki-addon.png){ width="600" }
-
 2. Type a topic (e.g. "Parkinson disease"), select the relevant results, and click **Find cards**. *Optionally add other selectors (e.g. yield or subtag such as management)*
-
-    ![Malleus Anki Addon Searching Parkinson Disease](../assets/studying-with-the-deck/Malleus-anki-addon-parkinson.png){ width="500" }
-
 3. Unsuspend the cards that you want to study
 
-    ![Malleus Anki Addon results](../assets/studying-with-the-deck/parkinson-disease-results.png){ width="700" }
+<video controls autoplay muted loop playsinline width="700">
+  <source src="../../assets/studying-with-the-deck/unsuspending-cards-to-study.mp4" type="video/mp4">
+</video>
 
 See the [add-on guide](../addon/index.md) for everything else it can do.
 
@@ -53,6 +51,5 @@ In the Browser sidebar, drill down e.g. **#Malleus_CM → #Subjects → Neurolog
 
 ## Step 3 — Review
 
-Back on the Anki main screen, click **Malleus Clinical Medicine (AU/NZ) → Study Now**. That's it — do your reviews daily and let spaced repetition do the rest.
+Back on the Anki main screen, click **Malleus Clinical Medicine → Study Now**. That's it — do your reviews daily and let spaced repetition do the rest.
 
-<p class="screenshot-todo">📷 Screenshots to migrate: deck list, Study Now</p>
